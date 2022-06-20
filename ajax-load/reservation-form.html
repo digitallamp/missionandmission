@@ -1,0 +1,409 @@
+<style>
+@media (min-width: 768px)
+{
+.modal-dialog {
+    width: 1000px;
+    margin: 30px auto;
+} }
+</style>
+<div class="modal-header bg-theme-colored">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <h4 class="modal-title text-white" id="myModalLabel">Appliation Form</h4>
+</div>
+<div class="p-40">
+  <!-- Reservation Form Start-->
+    <form id="reservation_form_popup"  class="reservation-form" >
+	<h3 class="mt-0 line-bottom text-theme-colored mb-40">Online Application Form</h3>
+      <div class="row">
+	  <div class="col-sm-2">
+          <div class="form-group mb-30">
+		  Choice1
+		  </div>
+	  </div>	  
+        <div class="col-sm-5">
+          <div class="form-group mb-30">
+           <!-- <input placeholder="Enter Name" type="text" id="reservation_name" name="reservation_name" required="" class="form-control"> -->
+           <select  name="choice_one" id="choice_one" class="form-control" >
+	 <option>Select Country</option>
+			<option value="1">Russia</option>
+<option value="2">China</option>
+<option value="3">Phillippines</option>
+<option value="4">Ukraine</option>
+<option value="5">Belarus </option>
+<option value="6">Georgia</option>
+<option value="7">Kyrkyztan</option>
+<option value="8">USA</option>
+</select>
+		  </div>
+        </div>
+		<div class="col-sm-5">
+          <div class="form-group mb-30">
+          <select name="choice_two" id="choice_two" class="form-control" >
+          <option value="">Select Country First</option>
+          </select>
+          </div>
+        </div>
+		<div class="col-sm-2">
+          <div class="form-group mb-30">
+		  Choice2
+		  </div>
+	  </div>	  
+        <div class="col-sm-5">
+          <div class="form-group mb-30">
+           <!-- <input placeholder="Enter Name" type="text" id="reservation_name" name="reservation_name" required="" class="form-control"> -->
+           <select  name="choice_three" id="choice_three" class="form-control" >
+	 <option>Select Country</option>
+			<option value="1">Russia</option>
+<option value="2">China</option>
+<option value="3">Phillippines</option>
+<option value="4">Ukraine</option>
+<option value="5">Belarus </option>
+<option value="6">Georgia</option>
+<option value="7">Kyrkyztan</option>
+<option value="8">USA</option>
+</select>
+		  </div>
+        </div>
+		<div class="col-sm-5">
+          <div class="form-group mb-30">
+          <select name="choice_four" id="choice_four" class="form-control" >
+          <option value="">Select Country First</option>
+          </select>
+          </div>
+        </div>
+		<div class="col-sm-2">
+          <div class="form-group mb-30">
+		  Choice3
+		  </div>
+	  </div>	  
+        <div class="col-sm-5">
+          <div class="form-group mb-30">
+           <!-- <input placeholder="Enter Name" type="text" id="reservation_name" name="reservation_name" required="" class="form-control"> -->
+           <select  name="choice_five" id="choice_five" class="form-control" >
+	 <option>Select Country</option>
+			<option value="1">Russia</option>
+<option value="2">China</option>
+<option value="3">Phillippines</option>
+<option value="4">Ukraine</option>
+<option value="5">Belarus </option>
+<option value="6">Georgia</option>
+<option value="7">Kyrkyztan</option>
+<option value="8">USA</option>
+</select>
+		  </div>
+        </div>
+		<div class="col-sm-5">
+          <div class="form-group mb-30">
+          <select name="choice_six" id="choice_six" class="form-control" >
+          <option value="">Select Country First</option>
+          </select>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group mb-30">
+            <input placeholder="Candidate's Name" type="text" id="candidate_name" name="candidate_name" class="form-control" required="">
+          </div>
+        </div>
+		<div class="col-sm-4">
+          <div class="form-group mb-30">
+            <input placeholder="Father's name" type="text" id="father_name" name="father_name" class="form-control" required="">
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group mb-30">
+            <input placeholder="Date of Birth" type="text" id="dob" name="dob" class="form-control required date-picker" aria-required="true" required="">
+          </div>
+        </div>
+		
+		<div class="col-sm-4">
+		<div class="form-group mb-30" class="form-control">
+		<label class="radio-inline" >Gender: </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="gender" id="male" value="0">
+                    Male</label>
+                  <label class="radio-inline">
+                    <input type="radio" name="gender" id="female" value="1">
+                    Female</label>
+          </div>       
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="form-group mb-30">
+            <input name="address" id="address" class="form-control" type="text" placeholder="Address" >
+          </div>
+        </div>
+		<div class="col-sm-4">
+          <div class="form-group mb-30">
+            <input name="city" id="city" class="form-control" type="text" placeholder="City" required>
+          </div>
+        </div>
+		<div class="col-sm-3">
+          <div class="form-group mb-30">
+            <input name="state" id="state" class="form-control" type="text" placeholder="State" required>
+          </div>
+        </div>
+		<div class="col-sm-3">
+          <div class="form-group mb-30">
+            <input name="pincode" id="pincode" class="form-control" type="text" placeholder="Pin-Code" required>
+          </div>
+        </div>
+		<div class="col-sm-3">
+          <div class="form-group mb-30">
+            <input name="nationality" id="nationality" class="form-control" type="text" placeholder="Nationality" required>
+          </div>
+        </div>
+		<div class="col-sm-3">
+          <div class="form-group mb-30">
+            <input name="mobileno" id="mobileno" class="form-control" type="text" placeholder="Mobile No." required>
+          </div>
+        </div>
+		<div class="col-sm-4">
+          <div class="form-group mb-30">
+            <input name="email" id="email" class="form-control" type="email" placeholder="Email" required>
+          </div>
+        </div>
+		<div class="col-sm-4">
+          <div class="form-group mb-30">
+            <div class="styled-select">
+              
+			  <select name="year1" id="year1" class="form-control" required="" >
+                              <option value="">Passing Year(SSC/SSLC/10th)</option>
+                               <option value="2017">2021</option>
+                                <option value="2017">2020</option>
+                                 <option value="2017">2019</option>
+                                  <option value="2017">2018</option>
+                              <option value="2017">2017</option>
+                              
+                              <option value="2016">2016</option>
+                              
+                              <option value="2015">2015</option>
+                              
+                              <option value="2014">2014</option>
+                              
+                              <option value="2013">2013</option>
+                              
+                              <option value="2012">2012</option>
+                              
+                              <option value="2011">2011</option>
+                              
+                              <option value="2010">2010</option>
+                              
+                              <option value="2009">2009</option>
+                              
+                              <option value="2008">2008</option>
+                              
+                              <option value="2007">2007</option>
+                              
+                              <option value="2006">2006</option>
+                              
+                              <option value="2005">2005</option>
+                              
+                              <option value="2004">2004</option>
+                              
+                              <option value="2003">2003</option>
+                              
+                              <option value="2002">2002</option>
+                              
+                              <option value="2001">2001</option>
+                              
+                              <option value="2000">2000</option>
+                              
+                              <option value="1999">1999</option>
+                              
+                          </select>
+            </div>
+          </div>
+        </div>
+		<div class="col-sm-4">
+          <div class="form-group mb-30">
+            <div class="styled-select">
+              
+			  <select name="year2" id="year2" class="form-control" required="" >
+                              <option value="">Passing Year(HSC/HSLC/12th)</option>
+                              <option value="2017">2017</option>
+                              
+                              <option value="2016">2016</option>
+                              
+                              <option value="2015">2015</option>
+                              
+                              <option value="2014">2014</option>
+                              
+                              <option value="2013">2013</option>
+                              
+                              <option value="2012">2012</option>
+                              
+                              <option value="2011">2011</option>
+                              
+                              <option value="2010">2010</option>
+                              
+                              <option value="2009">2009</option>
+                              
+                              <option value="2008">2008</option>
+                              
+                              <option value="2007">2007</option>
+                              
+                              <option value="2006">2006</option>
+                              
+                              <option value="2005">2005</option>
+                              
+                              <option value="2004">2004</option>
+                              
+                              <option value="2003">2003</option>
+                              
+                              <option value="2002">2002</option>
+                              
+                              <option value="2001">2001</option>
+                              
+                              <option value="2000">2000</option>
+                              
+                              <option value="1999">1999</option>
+                              
+                          </select>
+            </div>
+          </div>
+        </div>
+		<div class="col-sm-12"><h4>Mark Obtained in Class 12th</h4></div>
+		<div class="col-sm-2">
+          <div class="form-group mb-30">
+            <input name="english" id="english" class="form-control" type="text" placeholder="English" required>
+          </div>
+        </div>
+		<div class="col-sm-2">
+          <div class="form-group mb-30">
+            <input name="physics" id="physics" class="form-control" type="text" placeholder="Physics" required>
+          </div>
+        </div>
+		<div class="col-sm-2">
+          <div class="form-group mb-30">
+            <input name="chemistry" id="chemistry" class="form-control" type="text" placeholder="Chemistry" required>
+          </div>
+        </div>
+		<div class="col-sm-2">
+          <div class="form-group mb-30">
+            <input name="biology" id="biology" class="form-control" type="text" placeholder="Biology" required>
+          </div>
+        </div>
+		<div class="col-sm-2">
+          <div class="form-group mb-30">
+            <input name="Total_PCBE" id="Total_PCBE" class="form-control" type="text" placeholder="Total PCBE" required>
+          </div>
+        </div>
+		<div class="col-sm-2">
+          <div class="form-group mb-30">
+            <input name="PCBE_percentage" id="PCBE_percentage" class="form-control" type="text" placeholder="PCBE %age" required>
+          </div>
+        </div>
+		<div class="col-sm-6">
+          <div class="form-group mb-30">
+            <input name="school_name" id="school_name" class="form-control" type="text" placeholder="School / College Name (Where Candidate Passed HSC / 12th Exam)" required>
+          </div>
+        </div>
+		<div class="col-sm-6">
+          <div class="form-group mb-30">
+            <label class="radio-inline" >I Want to Information by SMS and Email: </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="sms_email" value="1">
+                    Yes</label>
+                  <label class="radio-inline">
+                    <input type="radio" name="sms_email"  value="0">
+                    No</label>
+          </div>
+        </div>
+		<div class="col-sm-12">
+          <div class="form-group mb-30">
+            <input name="passport" id="passport" class="form-control" type="text" placeholder="Passport Number" >
+            <label>You can apply for passport with this link: <a href="http://www.passportindia.gov.in/AppOnlineProject/welcomeLink" class="text-theme-color-2" target="_blank" >Apply</a> </label>
+		  </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="form-group mb-0 mt-0">
+            
+			<div id="form-result"></div>
+            <button type="submit" class="btn btn-colored btn-theme-colored btn-lg btn-flat border-left-theme-colored-4px" data-loading-text="Please wait...">Submit Now</button>
+          </div>
+        </div>
+      </div>
+    </form>
+   
+	
+</div>
+<!-- Footer Scripts -->
+<script>
+  //reload date and time picker
+  THEMEMASCOT.initialize.TM_datePicker();
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#choice_one').on('change',function(){
+        var countryID = $(this).val();
+		
+        if(countryID){
+            $.ajax({
+                type:'POST',
+                url:'includes/ajaxData.php',
+                data:'country_id='+countryID,
+                success:function(html){
+					
+                    $('#choice_two').html(html);
+                   }
+            }); 
+        }else{
+            $('#choice_two').html('<option value="">Select Country first</option>');
+            }
+    }); 
+	$('#choice_three').on('change',function(){
+        var countryID = $(this).val();
+		
+        if(countryID){
+            $.ajax({
+                type:'POST',
+                url:'includes/ajaxData.php',
+                data:'country_id='+countryID,
+                success:function(html){
+					
+                    $('#choice_four').html(html);
+                   }
+            }); 
+        }else{
+            $('#choice_four').html('<option value="">Select Country first</option>');
+            }
+    });
+	$('#choice_five').on('change',function(){
+        var countryID = $(this).val();
+		
+        if(countryID){
+            $.ajax({
+                type:'POST',
+                url:'includes/ajaxData.php',
+                data:'country_id='+countryID,
+                success:function(html){
+					
+                    $('#choice_six').html(html);
+                    }
+            }); 
+        }else{
+            $('#choice_six').html('<option value="">Select Country first</option>');
+            //$('#locality').html('<option value="">Select city first</option>'); 
+        }
+    });
+$("#reservation_form_popup").on('submit',(function(e){
+e.preventDefault();
+$.ajax({
+url: "includes/reservation.php",
+type: "POST",
+data:  new FormData(this),
+contentType: false,
+cache: false,
+processData:false,
+success: function(data){
+if(data.trim()=='success')	{
+$("#form-result").html('<div class="alert alert-success" role="alert">Your application form submitted <strong>successfully</strong> and will get Back to you as soon as possible.</div>');
+}
+else{$("#form-result").html('<div class="alert alert-danger" role="alert">Your application form <strong>failed</strong> to submit.Please try again.</div>');
+}
+},
+error: function(){} 	        
+});
+}));
+   });
+</script>
